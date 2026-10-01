@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Production build
+dist/
+
+# Executables & temporary binaries
+*.exe
+*.o
+
+# Intermediate analysis & debug files
+ridges.*
+clean_test.*
+strokes_test.*
+vector_test.*
+test_render.*
+final_render.*
+full_render.*
+clean_simplified.*
+clean_mesh.json
+ref.bmp
+detected_*.json
+wireframe_vertices.json
+true_wireframe.json
+
+# System & IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

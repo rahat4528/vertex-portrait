@@ -1,0 +1,17 @@
+{
+  "name": "vertex-portrait",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "print": "node scripts/print_terminal.js",
+    "print:term": "node scripts/print_terminal.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.0",
+    "vite": "^6.2.0"
+  }
+}
